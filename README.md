@@ -1,2 +1,2 @@
-# https://enzokrebs8.gith.io/Site-DKCGI 
-Site-DKCGI
+# https://dkcgirocket.github.io/Site-DKCGI/
+DKCGI Rocket
