@@ -1,0 +1,407 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url('../img/banner_espaco_v.png');
+}
+
+h1 {
+    font-family: 'Pricedown';
+    font-size: 2.8em;
+    color: rgb(169, 11, 194);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 2;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: rgb(169, 11, 194);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+p {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    line-height: 1.5;
+    font-size: 1.3em;
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: #f5f5f5;
+}
+
+header {
+    width: 100%;
+}
+
+.logoicon {
+    width: 5%;
+}
+
+nav {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+a {
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 125%;
+    background-color: rgb(250, 250, 250);
+    color: #000000;
+}
+
+nav {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: #1E0044;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(250, 250, 250);
+    background-color: #1E0044;
+    overflow: hidden;
+}
+
+nav a:hover {
+    background-color: #ffffffea;
+    color: rgb(0, 0, 0);
+    font-size: 125%;
+
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    background-color: rgb(33, 33, 33);
+    width: 70%;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    line-height: 1.5;
+    color: white;
+}
+
+footer {
+    background-color: #1E0044;
+    width: 100%;
+    color: white;
+}
+
+.integrantes{
+    text-align: center;
+    align-items: center;
+}
+
+.img_redonda{
+    border-radius: 50%;
+    /* float: right; */
+
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    height: 256px;
+    width: 256px;
+}
+
+.borda {
+    background-color: black;
+    width: 90%;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 10px;
+    border-radius: 1%;
+}
+
+.ladodir {
+    float: right
+}
+
+.ladoesq {
+    float: left;
+}
+
+.imgmeio {
+    width: 37%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+ul {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    line-height: 1.5;
+    font-size: 1.1em;
+}
+
+.listasmeio li {
+    line-height: 1.5;
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+.imgf{
+    width: 40%;
+    height: 40%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    text-align: center;
+    align-items: center;
+}
+
+.listasmeio {
+    list-style-image: url('../img/foguetinete.png ');
+    position: relative;
+    padding-left: 25px;
+}
+
+.linha,
+.row-sections {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.col-6 {
+    padding-top: 2%;
+    width: 50%;
+}
+
+.col-textos {
+    padding-top: 2%;
+    width: 40%;
+}
+
+.img-card {
+    background-image: linear-gradient(to right, rgba(30, 0, 68, 0.3), #9714e2);
+    width: 90%;
+    border-style: double;
+    border-color: #696969;
+    border-width: 5px;
+    box-shadow: 7px 7px 7px 5px rgb(169, 11, 194);
+    transition: 0.3s;
+    margin-left: 10px;
+}
+
+.card {
+    background-image: linear-gradient(to right, #525252, #2c2c2c);
+    width: 90%;
+    box-shadow: 5px 5px 5px 5px rgba(30, 0, 68, 0.3);
+    transition: 0.3s;
+    border-style: double;
+    border-color: #696969;
+    border-width: 5px;
+    margin-left: 10px;
+}
+
+
+.introducao,
+.personagens,
+.historia,
+.gta_online,
+.premiacoes {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.michael {
+    color: rgb(81, 81, 209);
+}
+
+.trevor {
+    color: rgb(230, 91, 36, 0.801);
+}
+
+.franklin {
+    color: rgb(29, 173, 29);
+}
+
+@media (max-width:900px) {
+
+    .linha {
+        flex-direction: column;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+}
+
+@font-face {
+    font-family: 'Pricedown';
+    src: url('../fonts/pricedown\ bl.otf');
+}
+
+.historia_dos_foguetes{
+    background-color: #1E0044;
+    color: #f5f5f5;
+}
+
+.titulo_listas{
+    color: rgb(169, 11, 194);
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/* Menu Responsivo */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #24252a;
+    box-shadow: 0px 3px 10px #464646;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    height: 100px;
+    width: 100px;
+}
+
+.logo h1 {
+    color: #fff;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-list ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.login-button button {
+    border: none;
+    background-color: rgb(169, 11, 194);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.login-button button a:hover {
+    font-weight: 500;
+    font-size: 1.1rem;
+    background-color: #ffffffea;
+    color: rgb(0, 0, 0);
+    font-size: 125%;
+
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .login-button {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+
+    .open {
+        display: block;
+    }
+}
